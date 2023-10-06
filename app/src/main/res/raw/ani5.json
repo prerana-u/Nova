@@ -1,0 +1,118 @@
+{
+  "earth 2": {
+    "keyframes": {
+      "rotation": [
+        {
+          "id": "ca4f65c4-c10f-4f06-9b49-ae8dcf77bc8c",
+          "ms": 0,
+          "property": "rotation",
+          "value": -31.7194,
+          "easing": "linear",
+          "easingCurve": [
+            0.42,
+            0,
+            0.58,
+            1
+          ]
+        },
+        {
+          "id": "e39c8f50-8420-463c-a949-2a1306e05d73",
+          "ms": 3,
+          "property": "rotation",
+          "value": 3,
+          "easing": "easeOut",
+          "easingCurve": [
+            0.42,
+            0,
+            0.58,
+            1
+          ]
+        },
+        {
+          "id": "15cd5503-7eaa-4e56-b9e3-65eae9865975",
+          "ms": 1000,
+          "property": "rotation",
+          "value": -31.7194,
+          "easing": "linear",
+          "easingCurve": [
+            0.42,
+            0,
+            0.58,
+            1
+          ]
+        },
+        {
+          "id": "1a1954e2-a7ab-4f36-8698-7980b85ff9e7",
+          "ms": 1402,
+          "property": "rotation",
+          "value": 0.6728,
+          "easing": "linear",
+          "easingCurve": [
+            0.42,
+            0,
+            0.58,
+            1
+          ]
+        }
+      ],
+      "width": [
+        {
+          "id": "2e480244-040b-4430-8ca6-21a772935250",
+          "ms": 0,
+          "property": "width",
+          "value": 130.95716857910156,
+          "easing": "linear",
+          "easingCurve": [
+            0.42,
+            0,
+            0.58,
+            1
+          ]
+        },
+        {
+          "id": "6e389e4a-ce82-4f8a-9f02-d95f718a272d",
+          "ms": 1000,
+          "property": "width",
+          "value": 257.4864807128906,
+          "easing": "linear",
+          "easingCurve": [
+            0.42,
+            0,
+            0.58,
+            1
+          ]
+        }
+      ],
+      "height": [
+        {
+          "id": "1d193266-3c6d-4e4d-9c52-6107a3e375c2",
+          "ms": 0,
+          "property": "height",
+          "value": 130.9571990966797,
+          "easing": "linear",
+          "easingCurve": [
+            0.42,
+            0,
+            0.58,
+            1
+          ]
+        },
+        {
+          "id": "22d5fd92-c2c7-4b06-a6da-8edb292abe32",
+          "ms": 1000,
+          "property": "height",
+          "value": 269.156005859375,
+          "easing": "linear",
+          "easingCurve": [
+            0.42,
+            0,
+            0.58,
+            1
+          ]
+        }
+      ]
+    },
+    "version": "0.2.0",
+    "anchorPoint": "TOPRIGHT"
+  }
+}

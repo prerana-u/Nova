@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/nova2"
+        android:label="Nova"
+        android:roundIcon="@drawable/nova2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".LowercaseChoice"></activity>
+        <activity android:name=".LowercaseTracing" />
+        <activity android:name=".Level3" />
+        <activity android:name=".SelectWords" />
+        <activity android:name=".Speechtotext" />
+        <activity android:name=".Charecters" />
+        <activity android:name=".Number_Tracing" />
+        <activity android:name=".Number_choice" />
+        <activity android:name=".Tracing_choice" />
+        <activity android:name=".Achivement" />
+        <activity android:name=".Tracing_alphabets" />
+        <activity android:name=".Animal_sound_game" />
+        <activity android:name=".Flashcard" />
+        <activity android:name=".Home" />
+        <activity android:name=".Slidepage" />
+        <activity android:name=".Profile_page" />
+        <activity android:name=".After_Signup" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".signin" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Loading_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

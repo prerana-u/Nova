@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Flashcard"
+    android:background="#01324E">
+
+    <LinearLayout
+        android:id="@+id/fc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/stars"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/itim"
+            android:gravity="center"
+            android:text="Learn about animals \n and their sounds!"
+            android:textColor="#fff"
+            android:textSize="28sp" />
+
+        <androidx.cardview.widget.CardView
+        android:id="@+id/flashcard"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="30dp" />
+
+    </LinearLayout>
+</LinearLayout>
